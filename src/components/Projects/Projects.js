@@ -62,7 +62,7 @@ function Projects() {
               title="YetiCamp"
               description="An app that allows users to share and discover hidden camping spots with an interactive map feature, perfect for finding low-traffic and secluded locations with ease."
               ghLink="https://github.com/AyushUprety/RevisedYetiCamp"
-              demoLink="https://revised-yeti-camp.vercel.app/campgrounds"
+              demoLink="https://revised-yeti-camp.vercel.app/"
             />
           </Col>
         </Row>
