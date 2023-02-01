@@ -10,6 +10,7 @@ import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import fit from "../../Assets/Projects/fit.png";
 import crypto from "../../Assets/Projects/crypto.png";
+import yeti from "../../Assets/Projects/yeti.png";
 
 function Projects() {
   return (
@@ -56,12 +57,12 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={crypto}
+              imgPath={yeti}
               isBlog={false}
-              title="Crypto"
-              description="A sleek app for tracking crypto exchange rates and staying current on market trends. Features include real-time rate comparisons and in-depth news analysis."
-              ghLink="https://github.com/AyushUprety/atheletY"
-              demoLink="https://beamish-travesseiro-725102.netlify.app/"
+              title="yeti"
+              description="An app that allows users to share and discover hidden camping spots with an interactive map feature, perfect for finding low-traffic and secluded locations with ease."
+              ghLink="https://github.com/AyushUprety/RevisedYetiCamp"
+              demoLink="https://revised-yeti-camp.vercel.app/campgrounds"
             />
           </Col>
         </Row>
