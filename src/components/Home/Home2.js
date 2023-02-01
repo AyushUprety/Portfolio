@@ -33,7 +33,7 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b>
               </i>
               <br />
-              <br />I mainly develope webapplicaion in{" "}
+              <br />I mainly develop webapplicaion in{" "}
               <b className="purple">MERN</b> stack with{" "}
               <i>
                 <b className="purple">
