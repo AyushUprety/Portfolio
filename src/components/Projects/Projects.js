@@ -51,7 +51,7 @@ function Projects() {
               isBlog={false}
               title="Crypto"
               description="A sleek app for tracking crypto exchange rates and staying current on market trends. Features include real-time rate comparisons and in-depth news analysis."
-              ghLink="https://github.com/AyushUprety/atheletY"
+              ghLink="https://github.com/AyushUprety/CryptoWorld"
               demoLink="https://beamish-travesseiro-725102.netlify.app/"
             />
           </Col>
@@ -59,10 +59,40 @@ function Projects() {
             <ProjectCard
               imgPath={crypto}
               isBlog={false}
-              title="Crypto"
-              description="A sleek app for tracking crypto exchange rates and staying current on market trends. Features include real-time rate comparisons and in-depth news analysis."
-              ghLink="https://github.com/AyushUprety/atheletY"
-              demoLink="bill-generator-umber.vercel.app"
+              title="Bill Generator"
+              description="A simple invoice generator app"
+              ghLink="https://github.com/AyushUprety/BillGenerator"
+              demoLink="https://bill-generator-umber.vercel.app"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={crypto}
+              isBlog={false}
+              title="TraceMaster"
+              description="Checks who follows you and who doesnot on github"
+              ghLink="https://github.com/AyushUprety/TraceMaster"
+              demoLink="https://trace-master-ictj.vercel.app"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={crypto}
+              isBlog={false}
+              title="NoteX"
+              description="A compact note taking web application"
+              ghLink="https://github.com/AyushUprety/NoteX"
+              demoLink="https://note-x-rtve.vercel.app"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={crypto}
+              isBlog={false}
+              title="URL shortnere"
+              description="An app to generate short URL for the URL given by user"
+              ghLink="https://github.com/AyushUprety/urlShortner"
+              demoLink="https://url-shortner-gold-zeta.vercel.app"
             />
           </Col>
         </Row>
