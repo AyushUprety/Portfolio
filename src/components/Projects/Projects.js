@@ -62,7 +62,7 @@ function Projects() {
               title="Crypto"
               description="A sleek app for tracking crypto exchange rates and staying current on market trends. Features include real-time rate comparisons and in-depth news analysis."
               ghLink="https://github.com/AyushUprety/atheletY"
-              demoLink="https://beamish-travesseiro-725102.netlify.app/"
+              demoLink="bill-generator-umber.vercel.app"
             />
           </Col>
         </Row>
