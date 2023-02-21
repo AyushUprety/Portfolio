@@ -10,6 +10,10 @@ import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import fit from "../../Assets/Projects/fit.png";
 import crypto from "../../Assets/Projects/crypto.png";
+import Git from "../../Assets/Projects/Git.png";
+import Invoice from "../../Assets/Projects/Invoice.png";
+import Notes from "../../Assets/Projects/Notes.png";
+import URL from "../../Assets/Projects/URL.png";
 import yeti from "../../Assets/Projects/yeti.png";
 
 function Projects() {
@@ -57,7 +61,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={crypto}
+              imgPath={Invoice}
               isBlog={false}
               title="Bill Generator"
               description="A simple invoice generator app"
@@ -67,7 +71,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={crypto}
+              imgPath={Git}
               isBlog={false}
               title="TraceMaster"
               description="Checks who follows you and who doesnot on github"
@@ -77,7 +81,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={crypto}
+              imgPath={Notes}
               isBlog={false}
               title="NoteX"
               description="A compact note taking web application"
@@ -87,7 +91,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={crypto}
+              imgPath={URL}
               isBlog={false}
               title="URL shortnere"
               description="An app to generate short URL for the URL given by user"
