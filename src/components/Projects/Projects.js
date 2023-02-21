@@ -26,6 +26,16 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={yeti}
+              isBlog={false}
+              title="YetiCamp"
+              description="An app that allows users to share and discover hidden camping spots with an interactive map feature, perfect for finding low-traffic and secluded locations with ease."
+              ghLink="https://github.com/AyushUprety/RevisedYetiCamp"
+              demoLink="https://revised-yeti-camp.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={fit}
               isBlog={false}
               title="athelety"
@@ -53,16 +63,6 @@ function Projects() {
               description="A sleek app for tracking crypto exchange rates and staying current on market trends. Features include real-time rate comparisons and in-depth news analysis."
               ghLink="https://github.com/AyushUprety/atheletY"
               demoLink="https://beamish-travesseiro-725102.netlify.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={yeti}
-              isBlog={false}
-              title="YetiCamp"
-              description="An app that allows users to share and discover hidden camping spots with an interactive map feature, perfect for finding low-traffic and secluded locations with ease."
-              ghLink="https://github.com/AyushUprety/RevisedYetiCamp"
-              demoLink="https://revised-yeti-camp.vercel.app/"
             />
           </Col>
         </Row>
